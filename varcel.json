@@ -1,13 +1,4 @@
 {
-    "version" : 2,
-    "builds" : {
-        "src" : "./index.js",
-        "use" : "@varcel/node"
-    },
-    "routes" : [
-        {
-            "src" : "/(.*)",
-            "dest" : "/index.js"
-        }
-    ]
+    "trailingSlash" : false,
+    "cleanUrls" : true
 }
